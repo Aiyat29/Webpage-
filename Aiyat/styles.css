@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    
+        background-image: url('me-image.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+        background-size: cover; /* Adjust the background size as needed */
+        background-repeat: no-repeat; /* Prevent image repetition */
+
+
+        
+          .gallery-list {
+            list-style: none;
+          }
+          
+          .gallery-list li {
+            margin: 0;
+            padding: 0; 
+            
+          
+          }
+          
+    
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add CSS styles for different sections and elements as needed */
